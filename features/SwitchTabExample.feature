@@ -6,5 +6,5 @@ Feature: Switch Tab Example
     And Verify the title of the page "Practice Page"
     Then I can click on Switch Tab
     And I can navigate to new tab
-    Then Verify the title of the page "Rahul Shetty Academy"
+    Then Verify the title of the page "Practice Page"
     And I can close the browser

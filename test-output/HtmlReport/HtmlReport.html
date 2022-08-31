@@ -46,8 +46,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>Selenix Test Reports</span>
@@ -56,7 +55,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Aug 31, 2022 03:57:36 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Aug 31, 2022 04:52:27 pm</span>
 			</a>
 		</ul>
 	</div>
@@ -72,8 +71,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -116,10 +113,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='85.714%'><span class='strong'>6</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='14.286%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -130,10 +127,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='93.333%'><span class='strong'>14</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>15</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='6.667%'>1</span> scenario(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
@@ -146,12 +143,12 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='97.59%'><span class='strong'>81</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>83</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='1.205%'>1</span> scenario(s) failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='1.205%'>1</span> skipped, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='1.205%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -172,7 +169,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Check Box Example</span>
-						<span class='test-time'>Aug 31, 2022 03:57:38 pm</span>
+						<span class='test-time'>Aug 31, 2022 04:52:29 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -183,7 +180,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 12s+425ms</span>
+	<span class='duration right label'>0h 0m 11s+853ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Check Box Option 1 Example</div>
 	</div>
@@ -211,7 +208,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='9' status='pass'>
-	<span class='duration right label'>0h 0m 8s+401ms</span>
+	<span class='duration right label'>0h 0m 7s+266ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Check Box option 2 Examples</div>
 	</div>
@@ -239,7 +236,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='16' status='pass'>
-	<span class='duration right label'>0h 0m 11s+607ms</span>
+	<span class='duration right label'>0h 0m 11s+758ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Check Box option 3 Examples</div>
 	</div>
@@ -271,7 +268,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='23'>
 					<div class='test-heading'>
 						<span class='test-name'>Drop Down Example feature</span>
-						<span class='test-time'>Aug 31, 2022 03:58:10 pm</span>
+						<span class='test-time'>Aug 31, 2022 04:53:00 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -282,7 +279,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario outline node' test-id='24' status='pass'>
-	<span class='duration right label'>0h 0m 21s+202ms</span>
+	<span class='duration right label'>0h 0m 21s+872ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Selecting the DropDowns</div>
 		<table class='runtime-table table-striped table'><tr><td>options</td></tr><tr><td>Option1</td></tr><tr><td>Option2</td></tr><tr><td>Option3</td></tr></table>
@@ -370,7 +367,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='46'>
 					<div class='test-heading'>
 						<span class='test-name'>Mouse Hover  Example</span>
-						<span class='test-time'>Aug 31, 2022 03:58:31 pm</span>
+						<span class='test-time'>Aug 31, 2022 04:53:22 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -381,7 +378,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario outline node' test-id='47' status='pass'>
-	<span class='duration right label'>0h 0m 13s+687ms</span>
+	<span class='duration right label'>0h 0m 14s+81ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Mouse Hover Example</div>
 		<table class='runtime-table table-striped table'><tr><td>MouseAction</td></tr><tr><td>Top</td></tr><tr><td>Reload</td></tr></table>
@@ -452,7 +449,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='64'>
 					<div class='test-heading'>
 						<span class='test-name'>Radio button feature</span>
-						<span class='test-time'>Aug 31, 2022 03:58:45 pm</span>
+						<span class='test-time'>Aug 31, 2022 04:53:36 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -463,7 +460,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario node' test-id='65' status='pass'>
-	<span class='duration right label'>0h 0m 6s+861ms</span>
+	<span class='duration right label'>0h 0m 6s+253ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Radio button 1 Examples</div>
 	</div>
@@ -491,7 +488,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='72' status='pass'>
-	<span class='duration right label'>0h 0m 6s+837ms</span>
+	<span class='duration right label'>0h 0m 7s+767ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Radio button 2 Examples</div>
 	</div>
@@ -519,7 +516,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='79' status='pass'>
-	<span class='duration right label'>0h 0m 6s+785ms</span>
+	<span class='duration right label'>0h 0m 6s+514ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Radio button 3 Examples</div>
 	</div>
@@ -551,7 +548,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='86'>
 					<div class='test-heading'>
 						<span class='test-name'>Suggession Class Example feature</span>
-						<span class='test-time'>Aug 31, 2022 03:59:06 pm</span>
+						<span class='test-time'>Aug 31, 2022 04:53:56 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -562,7 +559,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario node' test-id='87' status='pass'>
-	<span class='duration right label'>0h 0m 6s+584ms</span>
+	<span class='duration right label'>0h 0m 7s+297ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Type to select a country</div>
 	</div>
@@ -591,11 +588,11 @@
 </div>
 					</div>
 				</li>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='94'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='94'>
 					<div class='test-heading'>
 						<span class='test-name'>Switch Tab Example</span>
-						<span class='test-time'>Aug 31, 2022 03:59:12 pm</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Aug 31, 2022 04:54:04 pm</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -604,10 +601,10 @@
 	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='95' status='fail'>
-	<span class='duration right label'>0h 0m 6s+159ms</span>
+<div class='scenario node' test-id='95' status='pass'>
+	<span class='duration right label'>0h 0m 6s+875ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Switch Tab Example</div>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Switch Tab Example</div>
 	</div>
 	<ul class='steps'>
 		<li test-id='97' class='node given pass' status='pass'>
@@ -630,19 +627,13 @@
 			<div class="step-name" title="automationPractiseStepDefinitions.Steps.i_can_navigate_to_new_tab()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And I can navigate to new tab</div>
 			<div class="node-step"></div>
 		</li>
-		<li test-id='102' class='node then fail' status='fail'>
-			<div class="step-name" title="automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then Verify the title of the page "Rahul Shetty Academy"</div>
-			<textarea disabled class="code-block">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(Steps.java:50)
-	at ✽.Verify the title of the page "Rahul Shetty Academy"(file:///C:/Users/ssaib/Desktop/AutomationFramework/RSA-001/./features/SwitchTabExample.feature:9)
-</textarea>
+		<li test-id='102' class='node then pass' status='pass'>
+			<div class="step-name" title="automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Verify the title of the page "Practice Page"</div>
+			<div class="node-step"></div>
 		</li>
-		<li test-id='103' class='node and skip' status='skip'>
-			<div class="step-name" title="automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And I can close the browser</div>
-			<div class="node-step">Step skipped</div>
+		<li test-id='103' class='node and pass' status='pass'>
+			<div class="step-name" title="automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And I can close the browser</div>
+			<div class="node-step"></div>
 		</li>
 	</ul>
 </div>
@@ -651,7 +642,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='104'>
 					<div class='test-heading'>
 						<span class='test-name'>Switch TO Alert Example</span>
-						<span class='test-time'>Aug 31, 2022 03:59:18 pm</span>
+						<span class='test-time'>Aug 31, 2022 04:54:11 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -662,7 +653,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario node' test-id='105' status='pass'>
-	<span class='duration right label'>0h 0m 7s+298ms</span>
+	<span class='duration right label'>0h 0m 7s+99ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Switch TO Alert 1 Example</div>
 	</div>
@@ -698,7 +689,7 @@
 	</ul>
 </div>
 <div class='scenario node' test-id='114' status='pass'>
-	<span class='duration right label'>0h 0m 10s+855ms</span>
+	<span class='duration right label'>0h 0m 7s+10ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Switch TO Alert 2 Example</div>
 	</div>
@@ -755,68 +746,7 @@
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Aug 31, 2022 03:59:18 pm</td>
-										<td class='linked' test-id='102'>Then Verify the title of the page "Rahul Shetty Academy"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(Steps.java:50)
-	at ✽.Verify the title of the page "Rahul Shetty Academy"(file:///C:/Users/ssaib/Desktop/AutomationFramework/RSA-001/./features/SwitchTabExample.feature:9)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -842,19 +772,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 31, 2022 03:57:36 pm</div>
+					<div class='panel-lead'>Aug 31, 2022 04:52:27 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 31, 2022 03:59:37 pm</div>
+			 		<div class='panel-lead'>Aug 31, 2022 04:54:25 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 2m 0s+924ms</div>
+					<div class='panel-lead'>0h 1m 58s+269ms</div>
 				</div>
 			</div>
 		</div>
@@ -866,38 +796,38 @@
 		<script>
 			var statusGroup = {
                 parentCount: 7,
-				passParent: 6,
-				failParent: 1,
+				passParent: 7,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				childCount: 15,
-				passChild: 14,
-				failChild: 1,
+				passChild: 15,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 0,
 				grandChildCount: 83,
-				passGrandChild: 81,
-				failGrandChild: 1,
+				passGrandChild: 83,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 1,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 2,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Check Box Example":32.463,"Drop Down Example feature":21.202,"Mouse Hover  Example":13.687,"Radio button feature":20.5,"Suggession Class Example feature":6.584,"Switch Tab Example":6.159,"Switch TO Alert Example":18.155
+			        "Check Box Example":30.901,"Drop Down Example feature":21.872,"Mouse Hover  Example":14.081,"Radio button feature":20.552,"Suggession Class Example feature":7.297,"Switch Tab Example":6.875,"Switch TO Alert Example":14.115
 			};
 		</script>
 	

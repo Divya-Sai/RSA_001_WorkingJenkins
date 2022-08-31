@@ -912,15 +912,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify the title of the page \"Rahul Shetty Academy\"",
+  "name": "Verify the title of the page \"Practice Page\"",
   "keyword": "Then "
 });
 formatter.match({
   "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(Steps.java:50)\r\n\tat ✽.Verify the title of the page \"Rahul Shetty Academy\"(file:///C:/Users/ssaib/Desktop/AutomationFramework/RSA-001/./features/SwitchTabExample.feature:9)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "I can close the browser",
@@ -930,7 +929,7 @@ formatter.match({
   "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.uri("file:features/SwitchToAlertExample.feature");
 formatter.feature({
