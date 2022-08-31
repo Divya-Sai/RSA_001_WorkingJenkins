@@ -1,0 +1,1706 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:57:37.207Z",
+        "before": [
+          {
+            "result": {
+              "duration": 764306500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check Box Option 1 Example",
+        "description": "",
+        "id": "check-box-example;check-box-option-1-example",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6669177400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4390542200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114402400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 541923500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can click on Check Box option1 Example",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_check_box_option1_example()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 803002900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:57:50.617Z",
+        "before": [
+          {
+            "result": {
+              "duration": 496400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check Box option 2 Examples",
+        "description": "",
+        "id": "check-box-example;check-box-option-2-examples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1819753500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5471676900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288687700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85908600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can click on Check Box option2 Example",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_check_box_option2_example()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 732846000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:57:59.031Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Check Box option 3 Examples",
+        "description": "",
+        "id": "check-box-example;check-box-option-3-examples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1707310100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4068115300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28063000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5094156600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I can click on Check Box option3 Example",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_check_box_option3_example()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703129200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check Box Example",
+    "description": "",
+    "id": "check-box-example",
+    "keyword": "Feature",
+    "uri": "file:features/CheckBoxExample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:58:10.645Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Selecting the DropDowns",
+        "description": "",
+        "id": "drop-down-example-feature;selecting-the-dropdowns;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1825349300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4378756500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19998800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4386100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can select options Option1 from drop down example",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_select_options_option1_from_drop_down_example()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 782361900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:58:17.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 496700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Selecting the DropDowns",
+        "description": "",
+        "id": "drop-down-example-feature;selecting-the-dropdowns;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1710350300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4444226500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24960400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1023300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can select options Option2 from drop down example",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_select_options_option2_from_drop_down_example()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 771449600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:58:24.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 496400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Selecting the DropDowns",
+        "description": "",
+        "id": "drop-down-example-feature;selecting-the-dropdowns;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1786934700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4621208200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27229700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can select options Option3 from drop down example",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_select_options_option3_from_drop_down_example()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 777076400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Drop Down Example feature",
+    "description": "",
+    "id": "drop-down-example-feature",
+    "keyword": "Feature",
+    "uri": "file:features/DropDownExample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:58:31.866Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Mouse Hover Example",
+        "description": "",
+        "id": "mouse-hover--example;mouse-hover-example;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1702981700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4150059600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19481200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Mouse Hover",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_click_on_mouse_hover()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4969000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can click on Top  Top button",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_top_top_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1337487800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:58:39.100Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Mouse Hover Example",
+        "description": "",
+        "id": "mouse-hover--example;mouse-hover-example;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1597765900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3992881400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34490900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Mouse Hover",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_click_on_mouse_hover()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1004300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can click on Top  Reload button",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_top_reload_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821349900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Mouse Hover  Example",
+    "description": "",
+    "id": "mouse-hover--example",
+    "keyword": "Feature",
+    "uri": "file:features/MouseHoverExample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:58:45.565Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Radio button 1 Examples",
+        "description": "",
+        "id": "radio-button-feature;radio-button-1-examples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1675285800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4132252900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301143600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can click on Radio button 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_radio_button(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 747623600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:58:52.435Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Radio button 2 Examples",
+        "description": "",
+        "id": "radio-button-feature;radio-button-2-examples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1688932400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000739300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45877000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can click on Radio button 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_radio_button(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1100578800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:58:59.283Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Radio button 3 Examples",
+        "description": "",
+        "id": "radio-button-feature;radio-button-3-examples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1624813600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4357515300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21603900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1963900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I can click on Radio button 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 28
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_radio_button(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 770192400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Radio button feature",
+    "description": "",
+    "id": "radio-button-feature",
+    "keyword": "Feature",
+    "uri": "file:features/RadioButton.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:59:06.073Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Type to select a country",
+        "description": "",
+        "id": "suggession-class-example-feature;type-to-select-a-country",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1760276200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4003285500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21514100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can type a country name \"China\" and select it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"China\"",
+                  "offset": 26
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_type_a_country_name_and_select_it(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 793367500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Suggession Class Example feature",
+    "description": "",
+    "id": "suggession-class-example-feature",
+    "keyword": "Feature",
+    "uri": "file:features/SuggessionClassExample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:59:12.665Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Switch Tab Example",
+        "description": "",
+        "id": "switch-tab-example;switch-tab-example",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1589426700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4507751300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19350000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can click on Switch Tab",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_switch_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can navigate to new tab",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_navigate_to_new_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(Steps.java:50)\r\n\tat ✽.Verify the title of the page \"Rahul Shetty Academy\"(file:///C:/Users/ssaib/Desktop/AutomationFramework/RSA-001/./features/SwitchTabExample.feature:9)\r\n",
+              "duration": 17252400,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Verify the title of the page \"Rahul Shetty Academy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rahul Shetty Academy\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 724600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Switch Tab Example",
+    "description": "",
+    "id": "switch-tab-example",
+    "keyword": "Feature",
+    "uri": "file:features/SwitchTabExample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-31T14:59:18.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1238300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Switch TO Alert 1 Example",
+        "description": "",
+        "id": "switch-to-alert-example;switch-to-alert-1-example",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1807943600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4623978800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23682000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can enter the name in the text box as \"Divya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Divya\"",
+                  "offset": 40
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_enter_the_name_in_the_text_box_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 495100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can click on Alert button",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_alert_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15058500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can click Ok",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_ok()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 818865400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-31T14:59:26.153Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Switch TO Alert 2 Example",
+        "description": "",
+        "id": "switch-to-alert-example;switch-to-alert-2-example",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1913012700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I can see \"Chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chrome\"",
+                  "offset": 10
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_see_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6916964200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the RahulShettyAcademy Practise link \"https://rahulshettyacademy.com/AutomationPractice/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://rahulshettyacademy.com/AutomationPractice/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_enter_the_rahul_shetty_academy_practise_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95895700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify the title of the page \"Practice Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Practice Page\"",
+                  "offset": 29
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.verify_the_title_of_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1816400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I can enter the name in the text box as \"Divya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Divya\"",
+                  "offset": 40
+                }
+              ],
+              "location": "automationPractiseStepDefinitions.Steps.i_can_enter_the_name_in_the_text_box_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I can click on Confirm button",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_on_confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can click Ok",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_click_ok()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1924919200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can close the browser",
+            "match": {
+              "location": "automationPractiseStepDefinitions.Steps.i_can_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Switch TO Alert Example",
+    "description": "",
+    "id": "switch-to-alert-example",
+    "keyword": "Feature",
+    "uri": "file:features/SwitchToAlertExample.feature",
+    "tags": []
+  }
+]
