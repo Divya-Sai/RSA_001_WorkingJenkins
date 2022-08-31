@@ -16,13 +16,14 @@ stage('Deploy')
 steps
 {
 echo "Depoying the code"
+bat "mvn compile"
 }
 }
 stage('Test')
 {
 steps
 {
-bat "mvn compile"
+bat "mvn test"
 }
 }
 stage('Release')
