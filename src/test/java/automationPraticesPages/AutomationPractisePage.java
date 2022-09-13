@@ -44,6 +44,10 @@ public class AutomationPractisePage {
 		System.out.println("this is issueid002method");
 	}
 
+	public void isenabledinIssue002(){
+		System.out.println("isenabledinIssue002");
+	}
+
 	public void nextissuesdelissue0001(){
 		System.out.println("nextissuesdelissue0001");
 	}
