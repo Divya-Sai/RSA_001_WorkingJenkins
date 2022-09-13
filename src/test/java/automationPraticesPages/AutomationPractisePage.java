@@ -36,5 +36,11 @@ public class AutomationPractisePage {
 		chkbox3.click();
 	}
 
+    public void sdelissue001(){
+		System.out.println("this is issueid001method");
+	}
 
+	public void sdelissue002(){
+		System.out.println("this is issueid002method");
+	}
 }
