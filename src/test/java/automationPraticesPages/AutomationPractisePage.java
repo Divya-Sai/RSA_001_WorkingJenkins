@@ -43,4 +43,8 @@ public class AutomationPractisePage {
 	public void sdelissue002(){
 		System.out.println("this is issueid002method");
 	}
+
+	public void nextissuesdelissue0001(){
+		System.out.println("nextissuesdelissue0001");
+	}
 }
